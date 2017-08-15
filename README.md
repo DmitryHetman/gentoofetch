@@ -4,7 +4,7 @@ Screenshot information tool for Gentoo GNU/Linux, written in C.
 gentoofetch is 170 lines long, 11kb in size if dynamically linked, 830kb if statically linked. It's written 
 in ASCII characrers, so no Unicode required.
 To dowload gentoofetch type in your terminal:
-git clone -b master --depth 1 https://github.com/DmitryHetman/gentoofetch
+# git clone -b master --depth 1 https://github.com/DmitryHetman/gentoofetch
 GPU detection still doesn't work, you can just edit executable or source code to 
 substitute Intel HD with your GPU model:
 # $ sandy gentoofetch.c
