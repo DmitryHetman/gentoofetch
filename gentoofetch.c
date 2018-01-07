@@ -35,7 +35,7 @@ uname(&kernel);
  fgets(cpul,20,file);
  fgets(cpul,20,file);
  fgets(cpul,20,file);
- fgets(cpul,60,file); /*jump to 5th line */
+ fgets(cpul,60,file); /* jump to 5th line find a better way */
  fclose(file);
  cpu=&cpul[13];
 
@@ -91,6 +91,7 @@ uname(&kernel);
  *strchr(resolution,',')='x';
 
 /* sound card detection */
+
  file=popen("aplay -L","r");
  do
   fgets(alsa,18,file);

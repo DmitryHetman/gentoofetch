@@ -2,3 +2,5 @@ GPU detection;
 Remove "aplay -L", "gcc -dumpmachine","df,awk" usage.
 Reduce shell usage in popen.
 Remove warnings
+Fix bug if alsa not installed, or not.
+In sway Graphic Environment doesn't work, use $XDG_RUNTIME_DIR

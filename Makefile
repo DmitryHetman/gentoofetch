@@ -1,6 +1,6 @@
 CC=gcc
 W=-Wall -Wextra -Wpedantic -Wno-unused-result
-CFLAGS=-O1 -march=native -pipe -o
+CFLAGS=-O2 -march=native -s -fno-stack-protector -fno-plt -no-pie -pipe -o
 TARGET=gentoofetch
 static:
 	$(CC) $(W) -static $(CFLAGS) $(TARGET) $(TARGET).c
